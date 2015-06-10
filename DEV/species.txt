@@ -1,0 +1,834 @@
+#   COMNAME                                     SVSPP
+=== =========================================== =====
+1   ACADEMY EEL                                 397  
+2   ACADIAN REDFISH                             155  
+3   AESOP SHRIMP                                297  
+4   AFRICAN POMPANO                             568  
+5   ALBACORE                                    703  
+6   ALEWIFE                                     33   
+7   ALLIGATORFISH                               165  
+8   ALMACO JACK                                 578  
+9   AMERICAN EEL                                384  
+10  AMERICAN LOBSTER                            301  
+11  AMERICAN PLAICE                             102  
+12  AMERICAN SAND LANCE                         734  
+13  AMERICAN SHAD                               35   
+14  ANCHOR TILEFISH                             623  
+15  ANCHOVY UNCL                                851  
+16  ANGLEFIN WHIFF                              882  
+17  ARCTIC EELPOUT                              189  
+18  ARCTIC EUALID                               291  
+19  ARCTIC SURFCLAM                             407  
+20  ARCTIC SURFCLAM CLAPPER                     408  
+21  ARMORED SEAROBIN                            173  
+22  ARROW SQUID                                 505  
+23  ATLANTIC ANGEL SHARK                        16   
+24  ATLANTIC ARGENTINE                          46   
+25  ATLANTIC BATFISH                            199  
+26  ATLANTIC BONITO                             123  
+27  ATLANTIC BRIEF SQUID                        504  
+28  ATLANTIC BUMPER                             573  
+29  ATLANTIC CALICO SCALLOP                     404  
+30  ATLANTIC COD                                73   
+31  ATLANTIC CROAKER                            136  
+32  ATLANTIC CUTLASSFISH                        126  
+33  ATLANTIC FLYINGFISH                         465  
+34  ATLANTIC GUITARFISH                         200  
+35  ATLANTIC HAGFISH                            1    
+36  ATLANTIC HALIBUT                            101  
+37  ATLANTIC HERRING                            32   
+38  ATLANTIC MACKEREL                           121  
+39  ATLANTIC MENHADEN                           36   
+40  ATLANTIC MIDSHIPMAN                         444  
+41  ATLANTIC MOONFISH                           132  
+42  ATLANTIC NEEDLEFISH                         471  
+43  ATLANTIC POMFRET                            585  
+44  ATLANTIC ROCK CRAB                          313  
+45  ATLANTIC SALMON                             894  
+46  ATLANTIC SAURY                              205  
+47  ATLANTIC SEASNAIL                           170  
+48  ATLANTIC SHARPNOSE SHARK                    360  
+49  ATLANTIC SILVERSIDE                         113  
+50  ATLANTIC SOFT POUT                          262  
+51  ATLANTIC SPADEFISH                          659  
+52  ATLANTIC SPINY LUMPSUCKER                   169  
+53  ATLANTIC STINGRAY                           373  
+54  ATLANTIC STURGEON                           380  
+55  ATLANTIC SURFCLAM                           403  
+56  ATLANTIC SURFCLAM BROKEN                    605  
+57  ATLANTIC SURFCLAM CLAPPER                   406  
+58  ATLANTIC THORNYHEAD                         885  
+59  ATLANTIC THREAD HERRING                     428  
+60  ATLANTIC TOMCOD                             453  
+61  ATLANTIC TORPEDO                            21   
+62  ATLANTIC WOLFFISH                           192  
+63  BALLOONFISH                                 849  
+64  BALLYHOO                                    468  
+65  BANDED BUTTERFLYFISH                        664  
+66  BANDED DRUM                                 651  
+67  BANDED RUDDERFISH                           204  
+68  BANDTAIL PUFFER                             845  
+69  BANDTAIL SEAROBIN                           765  
+70  BANDTOOTH CONGER                            389  
+71  BANK BUTTERFLYFISH                          660  
+72  BANK CUSK-EEL                               459  
+73  BANK SEA BASS                               526  
+74  BAR JACK                                    572  
+75  BARBFISH                                    754  
+76  BARNDOOR SKATE                              22   
+77  BARRACUDA UNCL                              620  
+78  BARRACUDINA UNCL                            896  
+79  BARRELFISH                                  207  
+80  BASKING SHARK                               6    
+81  BASSLET UNCL                                618  
+82  BATFISH UNCL                                452  
+83  BATHYAL SWIMMING CRAB                       517  
+84  BAY ANCHOVY                                 43   
+85  BAY SCALLOP                                 402  
+86  BAY WHIFF                                   782  
+87  BEARDED BROTULA                             456  
+88  BEARDFISH                                   263  
+89  BEARDLESS CODLING                           70   
+90  BEAUGREGORY                                 672  
+91  BELTED SANDFISH                             553  
+92  BERMUDA CHUB                                658  
+93  BIG ROUGHY                                  268  
+94  BIGEYE                                      134  
+95  BIGEYE CIGARFISH                            876  
+96  BIGEYE SCAD                                 209  
+97  BIGEYE SEAROBIN                             767  
+98  BIGEYE SOLDIERFISH                          483  
+99  BIGEYE THRESHER SHARK                       926  
+100 BIGEYE TUNA                                 706  
+101 BIGHEAD SEAROBIN                            770  
+102 BIGNOSE SHARK                               929  
+103 BIGSCALE POMFRET                            130  
+104 BLACK DOGFISH                               7    
+105 BLACK DRUM                                  147  
+106 BLACK GEMFISH                               227  
+107 BLACK GROUPER                               540  
+108 BLACK MARLIN                                940  
+109 BLACK SEA BASS                              141  
+110 BLACKBAR SOLDIERFISH                        482  
+111 BLACKBELLY ROSEFISH                         156  
+112 BLACKCHEEK TONGUEFISH                       825  
+113 BLACKEAR BASS                               549  
+114 BLACKEAR WRASSE                             679  
+115 BLACKEDGE MORAY                             387  
+116 BLACKFIN GOOSEFISH                          897  
+117 BLACKFIN SNAPPER                            588  
+118 BLACKFIN TUNA                               705  
+119 BLACKLINE TILEFISH                          562  
+120 BLACKMOUTH BASS                             114  
+121 BLACKMOUTHED ALFONSIN                       261  
+122 BLACKNOSE SHARK                             354  
+123 BLACKSPOTTED STICKLEBACK                    901  
+124 BLACKTIP SHARK                              357  
+125 BLACKWING SEAROBIN                          768  
+126 BLOTCHED CUSK-EEL                           458  
+127 BLOTCHED SWIMMING CRAB                      516  
+128 BLUE ANGELFISH                              665  
+129 BLUE CRAB                                   314  
+130 BLUE HAKE                                   81   
+131 BLUE MARLIN                                 707  
+132 BLUE MUSSEL                                 343  
+133 BLUE PARROTFISH                             686  
+134 BLUE RUNNER                                 129  
+135 BLUE SHARK                                  17   
+136 BLUE TANG                                   742  
+137 BLUEBACK HERRING                            34   
+138 BLUEFIN TUNA                                747  
+139 BLUEFISH                                    135  
+140 BLUELINE TILEFISH                           621  
+141 BLUELIP PARROTFISH                          684  
+142 BLUESPOTTED CORNETFISH                      120  
+143 BLUESPOTTED SEAROBIN                        766  
+144 BLUNTHEAD PUFFER                            880  
+145 BLUNTNOSE FLYINGFISH                        470  
+146 BLUNTNOSE JACK                              575  
+147 BLUNTNOSE SMOOTHHEAD                        243  
+148 BLUNTNOSE STINGRAY                          18   
+149 BOA DRAGONFISH                              228  
+150 BOARFISH UNCL                               422  
+151 BOBTAIL UNCL                                506  
+152 BONEFISH                                    383  
+153 BONNETHEAD SHARK                            364  
+154 BOREAL ASTERIAS                             333  
+155 BOX CRAB UNCL                               339  
+156 BRIDLE CARDINALFISH                         888  
+157 BRISTLED LONGBEAK                           296  
+158 BROAD FLOUNDER                              790  
+159 BROADBAND DOGFISH                           601  
+160 BROWN DRIFTFISH                             891  
+161 BROWN ROCK SHRIMP                           316  
+162 BROWN SHRIMP                                913  
+163 BROWN TROUT                                 432  
+164 BUCKLER DORY                                112  
+165 BUCKTOOTH PARROTFISH                        687  
+166 BULL PIPEFISH                               496  
+167 BULL SHARK                                  356  
+168 BULLET MACKEREL                             701  
+169 BULLEYE                                     616  
+170 BULLNOSE RAY                                19   
+171 BUTTERFISH                                  131  
+172 BUTTERFISH UNCL                             750  
+173 BUTTERFLYFISH UNCL                          855  
+174 CAESAR GRUNT                                628  
+175 CALICO BOX CRAB                             327  
+176 CALICO CRAB UNCL                            315  
+177 CANCER CRAB UNCL                            311  
+178 CAPELIN                                     38   
+179 CARDINAL SOLDIERFISH                        484  
+180 CARDINALFISH UNCL                           138  
+181 CARIBBEAN LANTERNSHARK                      602  
+182 CARIBBEAN SPINY LOBSTER                     304  
+183 CAROLINA HAKE                               454  
+184 CERO                                        746  
+185 CHAIN DOGFISH                               14   
+186 CHAIN PIPEFISH                              495  
+187 CHANNEL FLOUNDER                            792  
+188 CHANNELED WHELK                             336  
+189 CHECKERED PUFFER                            846  
+190 CHUB MACKEREL                               124  
+191 CLEARNOSE SKATE                             24   
+192 CLINID UNCL                                 727  
+193 COARSEHAND LADY CRAB                        321  
+194 COBIA                                       563  
+195 COCOA DAMSELFISH                            854  
+196 COMBTOOTH BLENNY UNCL                       733  
+197 COMMON OCTOPUS                              511  
+198 COMMON SNOOK                                497  
+199 CONEJO                                      127  
+200 CONGER EEL                                  63   
+201 CONGER EEL UNCL                             390  
+202 CORNETFISH UNCL                             490  
+203 COTTONMOUTH JACK                            898  
+204 COWNOSE RAY                                 270  
+205 CREOLE WRASSE                               674  
+206 CREOLE-FISH                                 545  
+207 CRESTED BLENNY                              730  
+208 CRESTED CUSK-EEL                            460  
+209 CREVALLE JACK                               570  
+210 CRIMSON BASS                                499  
+211 CUBAN ANCHOVY                               889  
+212 CUBBYU                                      650  
+213 CUNNER                                      176  
+214 CUSK                                        84   
+215 CUSK-EEL UNCL                               461  
+216 DAMSELFISH UNCL                             619  
+217 DAUBED SHANNY                               183  
+218 DEEPBODY BOARFISH                           158  
+219 DEEPWATER DAB                               98   
+220 DEEPWATER FLOUNDER                          110  
+221 DEEPWATER SQUIRRELFISH                      479  
+222 DOCTORFISH                                  741  
+223 DOG SNAPPER                                 591  
+224 DOLPHIN                                     584  
+225 DOTTEREL FILEFISH                           830  
+226 DRUM UNCL                                   858  
+227 DUCK-BILL SHELL UNCL                        405  
+228 DUSKY ANCHOVY                               859  
+229 DUSKY FLOUNDER                              793  
+230 DUSKY PIPEFISH                              494  
+231 DUSKY SHARK                                 3    
+232 DUSKY SQUIRRELFISH                          481  
+233 DWARF GOATFISH                              657  
+234 DWARF HERRING                               427  
+235 DWARF SAND PERCH                            529  
+236 EEL UNCL                                    60   
+237 EELPOUT UNCL                                267  
+238 EMERALD PARROTFISH                          685  
+239 ESCOLAR                                     824  
+240 ETROPUS UNCL                                794  
+241 EYED FLOUNDER                               777  
+242 FALSE QUAHOG                                415  
+243 FANTAIL MULLET                              692  
+244 FAT SLEEPER                                 736  
+245 FAWN CUSK-EEL                               194  
+246 FEATHER BLENNY                              731  
+247 FINETOOTH SHARK                             928  
+248 FINLESS EEL                                 398  
+249 FLAME BOX CRAB                              328  
+250 FLAMEFISH                                   558  
+251 FLAT ANCHOVY                                430  
+252 FLAT NEEDLEFISH                             68   
+253 FLORIDA POMPANO                             579  
+254 FLORIDA SMOOTHHOUND                         935  
+255 FLOUNDER UNCL                               100  
+256 FLYING GURNARD                              175  
+257 FLYING HALFBEAK                             466  
+258 FOURBEARD ROCKLING                          83   
+259 FOUREYE BUTTERFLYFISH                       661  
+260 FOURHORN SCULPIN                            772  
+261 FOURSPINE STICKLEBACK                       488  
+262 FOURSPOT FLOUNDER                           104  
+263 FOURWING FLYINGFISH                         469  
+264 FRECKLED BLENNY                             732  
+265 FRECKLED SOAPFISH                           555  
+266 FRECKLED STARGAZER                          725  
+267 FRIENDLY BLADE SHRIMP                       295  
+268 FRIGATE MACKEREL                            702  
+269 FRILLFIN GOBY                               737  
+270 FRINGED FILEFISH                            836  
+271 FRINGED FLOUNDER                            785  
+272 GAFFTOPSAIL CATFISH                         442  
+273 GAG                                         541  
+274 GALATHEID UNCL                              319  
+275 GIZZARD SHAD                                426  
+276 GLACIER LANTERNFISH                         51   
+277 GLADIATOR BOX CRAB                          604  
+278 GLASSEYE SNAPPER                            556  
+279 GOBY FLATHEAD                               698  
+280 GOBY UNCL                                   739  
+281 GOLDEN DEEPSEA CRAB                         308  
+282 GOLDFACE TILEFISH                           622  
+283 GOOSEFISH                                   197  
+284 GRAY ANGELFISH                              668  
+285 GRAY FLOUNDER                               786  
+286 GRAY SNAPPER                                590  
+287 GRAY TRIGGERFISH                            202  
+288 GREAT BARRACUDA                             693  
+289 GREAT HAMMERHEAD SHARK                      363  
+290 GREATER AMBERJACK                           203  
+291 GREEN CRAB                                  326  
+292 GREEN SEATURTLE                             951  
+293 GREENBAND WRASSE                            676  
+294 GREENEYE UNCL                               47   
+295 GREENLAND COCKLE                            418  
+296 GREENLAND HALIBUT                           99   
+297 GRENADIER UNCL                              90   
+298 GRUBBY                                      166  
+299 GRUNT UNCL                                  630  
+300 GUAGUANCHE                                  695  
+301 GULF FLOUNDER                               788  
+302 GULF KINGFISH                               653  
+303 GULF STREAM FLOUNDER                        109  
+304 HADDOCK                                     74   
+305 HAKE UNCL                                   80   
+306 HARDHEAD CATFISH                            441  
+307 HARVESTFISH                                 749  
+308 HATCHETFISH UNCL                            252  
+309 HAWKSBILL SEATURTLE                         953  
+310 HEADLIGHTFISH                               210  
+311 HEADLIGHTFISH UNCL                          61   
+312 HERMIT CRAB UNCL                            335  
+313 HERRING UNCL                                30   
+314 HICKORY SHAD                                37   
+315 HIGH-HAT                                    647  
+316 HIGHFIN SCORPIONFISH                        752  
+317 HOGCHOKER                                   118  
+318 HOGFISH                                     682  
+319 HONEYCOMB COWFISH                           838  
+320 HONEYCOMB MORAY                             870  
+321 HOOKEAR SCULPIN UNCL                        159  
+322 HORNED LANTERNFISH                          54   
+323 HORNED SEAROBIN                             762  
+324 HORNED WHIFF                                780  
+325 HORSE-EYE JACK                              571  
+326 HORSESHOE CRAB                              318  
+327 HOUNDFISH                                   215  
+328 HUMBOLDTS LANTERNFISH                       53   
+329 HUNCHBACK SCORPIONFISH                      756  
+330 ICELAND SCALLOP                             340  
+331 ICELAND SCALLOP CLAPPER                     341  
+332 INQUILINE SNAILFISH                         167  
+333 INSHORE LIZARDFISH                          435  
+334 JACK POMPANO UNCL                           582  
+335 JACKKNIFE-FISH                              648  
+336 JAMBEAU                                     829  
+337 JOLTHEAD PORGY                              632  
+338 JONAH CRAB                                  312  
+339 KEELCHEEK BASS                              137  
+340 KEMP'S RIDLEY SEATURTLE                     954  
+341 KING MACKEREL                               744  
+342 KNOBBED PORGY                               635  
+343 KNOBBED WHELK                               337  
+344 LADY CRAB                                   322  
+345 LADYFISH                                    381  
+346 LANCER STARGAZER                            726  
+347 LANE SNAPPER                                592  
+348 LANTERN BASS                                550  
+349 LANTERNFISH UNCL                            56   
+350 LARGESCALE LIZARDFISH                       433  
+351 LARGESCALE TONGUEFISH                       799  
+352 LEATHERBACK SEATURTLE                       952  
+353 LEATHERJACK                                 577  
+354 LEFTEYE FLOUNDER UNCL                       795  
+355 LEMON SHARK                                 359  
+356 LEOPARD SEAROBIN                            769  
+357 LEOPARD SHARK                               936  
+358 LEOPARD TOADFISH                            443  
+359 LESSER AMBERJACK                            877  
+360 LESSER ELECTRIC RAY                         367  
+361 LESSER SHINING BOBTAIL                      507  
+362 LIGHTFISH UNCL                              887  
+363 LINED SEAHORSE                              492  
+364 LING UNCL                                   87   
+365 LITTLE SKATE                                26   
+366 LITTLE TUNNY                                743  
+367 LITTLEHEAD PORGY                            637  
+368 LIZA                                        691  
+369 LIZARDFISH UNCL                             852  
+370 LOGGERHEAD SEATURTLE                        950  
+371 LONGBILL SPEARFISH                          943  
+372 LONGFIN HAKE                                79   
+373 LONGFIN MAKO                                927  
+374 LONGFIN SCORPIONFISH                        753  
+375 LONGFIN SQUID                               503  
+376 LONGFIN SQUID EGG MOPS                      520  
+377 LONGHORN SCULPIN                            163  
+378 LONGNOSE ANCHOVY                            890  
+379 LONGNOSE BATFISH                            206  
+380 LONGNOSE CUSK-EEL                           868  
+381 LONGNOSE GREENEYE                           242  
+382 LONGNOSE GRENADIER                          93   
+383 LONGNOSE LANCETFISH                         440  
+384 LONGSNOUT BUTTERFLYFISH                     864  
+385 LONGSNOUT SEAHORSE                          493  
+386 LONGSPINE SCORPIONFISH                      154  
+387 LONGSPINE SNIPEFISH                         111  
+388 LONGSPINE SQUIRRELFISH                      480  
+389 LONGTAIL SKATE                              924  
+390 LONGTOOTH ANGLEMOUTH                        235  
+391 LOOKDOWN                                    133  
+392 LOPHIIFORM UNCL                             900  
+393 LUMPFISH                                    168  
+394 LUMPFISH SNAILFISH UNCL                     249  
+395 MACKEREL AND TUNA UNCL                      860  
+396 MACKEREL SCAD                               208  
+397 MADEIRA LANTERNFISH                         52   
+398 MANTA                                       272  
+399 MANTIS SHRIMP UNCL                          323  
+400 MARBLED GROUPER                             528  
+401 MARBLED PUFFER                              843  
+402 MARGINED FLYINGFISH                         463  
+403 MARGINED SNAKE EEL                          65   
+404 MARLIN-SPIKE                                91   
+405 MARLINSUCKER                                566  
+406 METALLIC CODLING                            82   
+407 MEXICAN SEAROBIN                            274  
+408 MISTY GROUPER                               863  
+409 MOJARRA UNCL                                625  
+410 MOON SNAIL, SHARK EYE, AND BABY-EAR UNCL    338  
+411 MOONEYE CUSK-EEL                            869  
+412 MORA UNCL                                   88   
+413 MORAY UNCL                                  388  
+414 MOTTLED CUSK-EEL                            457  
+415 MOTTLED JAWFISH                             697  
+416 MOUSTACHE JAWFISH                           696  
+417 MOUSTACHE SCULPIN                           161  
+418 MUMMICHOG                                   473  
+419 MUTTON HAMLET                               498  
+420 MUTTON SNAPPER                              586  
+421 NAKED GOBY                                  738  
+422 NAKED SOLE                                  796  
+423 NASSAU GROUPER                              538  
+424 NIGHT SHARK                                 934  
+425 NINESPINE STICKLEBACK                       902  
+426 NORTHERN CYCLOCARDIA                        419  
+427 NORTHERN HORSEMUSSEL                        342  
+428 NORTHERN KINGFISH                           146  
+429 NORTHERN MOONSNAIL                          348  
+430 NORTHERN PIPEFISH                           116  
+431 NORTHERN PROPELLER CLAM                     417  
+432 NORTHERN PUFFER                             196  
+433 NORTHERN QUAHOG                             413  
+434 NORTHERN QUAHOG CLAPPER                     414  
+435 NORTHERN SAND LANCE                         181  
+436 NORTHERN SEAROBIN                           171  
+437 NORTHERN SENNET                             694  
+438 NORTHERN SHORTFIN SQUID                     502  
+439 NORTHERN SHORTFIN SQUID EGG MOPS            519  
+440 NORTHERN SHRIMP                             306  
+441 NORTHERN SHRIMP FEMALE I                    956  
+442 NORTHERN SHRIMP FEMALE II                   957  
+443 NORTHERN SHRIMP MALE                        955  
+444 NORTHERN SHRIMP NON SPAWN                   960  
+445 NORTHERN SHRIMP OVIGEROUS                   959  
+446 NORTHERN SHRIMP TRANSITIONAL                958  
+447 NORTHERN SHRIMP UNSTAGED                    961  
+448 NORTHERN STARGAZER                          179  
+449 NORTHERN STONE CRAB                         324  
+450 NORTHERN TONGUEFISH                         826  
+451 NORWEGIAN SHRIMP                            299  
+452 NURSE SHARK                                 350  
+453 OCEAN POUT                                  193  
+454 OCEAN QUAHOG                                409  
+455 OCEAN QUAHOG BROKEN                         606  
+456 OCEAN QUAHOG CLAPPER                        410  
+457 OCEAN SUNFISH                               265  
+458 OCEAN SURGEON                               740  
+459 OCEAN TRIGGERFISH                           835  
+460 OCEANIC TWO-WING FLYINGFISH                 467  
+461 OCEANIC WHITETIP SHARK                      930  
+462 OCELLATE SKATE                              368  
+463 OCELLATED FLOUNDER                          775  
+464 OCELLATED FROGFISH                          445  
+465 OCTOPUS UNCL                                510  
+466 OFFSHORE HAKE                               69   
+467 OFFSHORE LIZARDFISH                         437  
+468 OFFSHORE TONGUEFISH                         797  
+469 OILFISH                                     823  
+470 ORANGE FILEFISH                             832  
+471 ORANGEBACK BASS                             548  
+472 OWEN'S BOBTAIL                              515  
+473 OYSTER TOADFISH                             185  
+474 PAINTED WRASSE                              678  
+475 PALESPOTTED EEL                             396  
+476 PALOMETA                                    581  
+477 PANCAKE BATFISH                             449  
+478 PARALICHTHYS UNCL                           853  
+479 PARROT SHRIMP                               286  
+480 PARROTFISH UNCL                             688  
+481 PATCHWORK LAMPFISH                          58   
+482 PEACOCK FLOUNDER                            776  
+483 PEARLFISH                                   462  
+484 PEARLY RAZORFISH                            681  
+485 PELAGIC STINGRAY                            374  
+486 PELICAN FLOUNDER                            778  
+487 PERMIT                                      580  
+488 PIGFISH                                     142  
+489 PILOTFISH                                   576  
+490 PINFISH                                     640  
+491 PINK GLASS SHRIMP                           292  
+492 PINK SHRIMP                                 914  
+493 PIPEFISH SEAHORSE UNCL                      421  
+494 PLANEHEAD FILEFISH                          201  
+495 PLUMED SCORPIONFISH                         757  
+496 POLAR LEBBEID                               294  
+497 POLKA-DOT BATFISH                           883  
+498 POLKA-DOT CUSK-EEL                          186  
+499 POLLOCK                                     75   
+500 POMPANO DOLPHIN                             583  
+501 PORBEAGLE SHARK                             353  
+502 PORCUPINEFISH                               850  
+503 PORGY AND PINFISH UNCL                      643  
+504 PORKFISH                                    626  
+505 PORTUGUESE SHARK                            603  
+506 PUDDINGWIFE                                 680  
+507 PUFFER UNCL                                 861  
+508 PUNCTATE BLADE SHRIMP                       285  
+509 PYGMY ARGENTINE                             892  
+510 PYGMY MORAY                                 385  
+511 PYGMY SEA BASS                              547  
+512 QUEEN ANGELFISH                             666  
+513 QUEEN TRIGGERFISH                           834  
+514 RADIATED SHANNY                             184  
+515 RAINBOW RUNNER                              574  
+516 RAINBOW SMELT                               45   
+517 RAINBOW TROUT                               431  
+518 RAY AND SKATE UNCL                          5    
+519 RAZOR AND JACKKNIFE CLAM UNCL               416  
+520 RED BARBIER                                 539  
+521 RED CORNETFISH                              489  
+522 RED DEEPSEA CRAB                            310  
+523 RED DORY                                    899  
+524 RED DRUM                                    654  
+525 RED GOATFISH                                187  
+526 RED GROUPER                                 535  
+527 RED HAKE                                    77   
+528 RED HIND                                    534  
+529 RED HOGFISH                                 675  
+530 RED LIZARDFISH                              438  
+531 RED PORGY                                   641  
+532 RED SNAPPER                                 589  
+533 REDEYE GAPER                                862  
+534 REEF BUTTERFLYFISH                          663  
+535 REEF SHARK                                  933  
+536 REMORA                                      567  
+537 REQUIEM SHARK UNCL                          361  
+538 RIDGED SLIPPER LOBSTER                      302  
+539 RIGHTEYE FLOUNDER UNCL                      773  
+540 ROCK BEAUTY                                 667  
+541 ROCK GUNNEL                                 180  
+542 ROCK HIND                                   531  
+543 ROCK SEA BASS                               527  
+544 ROSETTE SKATE                               25   
+545 ROUGH SAGRE                                 8    
+546 ROUGH SCAD                                  212  
+547 ROUGH SILVERSIDE                            475  
+548 ROUGHBACK BATFISH                           451  
+549 ROUGHHEAD GRENADIER                         92   
+550 ROUGHTAIL STINGRAY                          4    
+551 ROUGHTONGUE BASS                            544  
+552 ROUND HERRING                               31   
+553 ROUND SCAD                                  211  
+554 ROUNDEL SKATE                               372  
+555 ROYAL RED SHRIMP                            910  
+556 RUPPELL'S ABRALIA                           509  
+557 SADDLE BASS                                 551  
+558 SAILFIN EEL                                 392  
+559 SAILFISH                                    939  
+560 SAND DIVER                                  436  
+561 SAND DOLLAR UNCL                            330  
+562 SAND PERCH                                  530  
+563 SAND SEATROUT                               644  
+564 SAND TIGER                                  12   
+565 SAND TILEFISH                               624  
+566 SAND WHIFF                                  779  
+567 SANDBAR SHARK                               9    
+568 SARGASSUMFISH                               448  
+569 SAUCEREYE PORGY                             633  
+570 SCALED SARDINE                              875  
+571 SCALLOPED HAMMERHEAD SHARK                  362  
+572 SCALY DRAGONFISH UNCL                       248  
+573 SCAMP                                       542  
+574 SCARLET GAMBA SHRIMP                        911  
+575 SCHOOL BASS                                 523  
+576 SCHOOLMASTER                                587  
+577 SCOOPHEAD SHARK                             937  
+578 SCORPIONFISH AND ROCKFISH UNCL              759  
+579 SCRAWLED COWFISH                            839  
+580 SCRAWLED FILEFISH                           833  
+581 SCULPIN UNCL                                160  
+582 SCUP                                        143  
+583 SCUP                                        642  
+584 SEA BASS UNCL                               554  
+585 SEA LAMPREY                                 2    
+586 SEA RAVEN                                   164  
+587 SEA SCALLOP                                 401  
+588 SEA SCALLOP CLAPPER                         400  
+589 SEA STAR, BRITTLE STAR, AND BASKETSTAR UNCL 332  
+590 SEA URCHIN AND SAND DOLLAR UNCL             331  
+591 SEAROBIN UNCL                               174  
+592 SEAWEED BLENNY                              728  
+593 SERGEANT MAJOR                              669  
+594 SEVENSPINE BAY SHRIMP                       287  
+595 SHARK EYE                                   349  
+596 SHARK UNCL                                  11   
+597 SHARKSUCKER                                 564  
+598 SHARPNOSE PUFFER                            842  
+599 SHEEPSHEAD                                  631  
+600 SHEEPSHEAD MINNOW                           472  
+601 SHEEPSHEAD PORGY                            636  
+602 SHERBORN'S CARDINALFISH                     150  
+603 SHIELD BOBTAIL                              508  
+604 SHOAL FLOUNDER                              791  
+605 SHORT BIGEYE                                557  
+606 SHORTBILL SPEARFISH                         941  
+607 SHORTFIN MAKO                               352  
+608 SHORTFIN SEAROBIN                           760  
+609 SHORTHORN SCULPIN                           162  
+610 SHORTJAW LIZARDFISH                         434  
+611 SHORTNOSE BATFISH                           450  
+612 SHORTNOSE GREENEYE                          232  
+613 SHORTNOSE STURGEON                          379  
+614 SHORTSPINE BOARFISH                         486  
+615 SHORTTAIL SNAKE EEL                         391  
+616 SHORTWING SEAROBIN                          871  
+617 SHRIMP (PINK,BROWN,WHITE)                   307  
+618 SHRIMP EEL                                  395  
+619 SHRIMP FLOUNDER                             787  
+620 SHRIMP UNCL                                 305  
+621 SILK SNAPPER                                593  
+622 SILKY SHARK                                 355  
+623 SILVER ANCHOVY                              865  
+624 SILVER HAKE                                 72   
+625 SILVER HATCHETFISH                          250  
+626 SILVER JENNY                                599  
+627 SILVER PERCH                                148  
+628 SILVER PORGY                                638  
+629 SILVER RAG                                  213  
+630 SILVER SEATROUT                             646  
+631 SILVERSIDE UNCL                             423  
+632 SILVERSTRIPE HALFBEAK                       66   
+633 SIMONYS FROSTFISH                           239  
+634 SINGLESPOT FROGFISH                         446  
+635 SKATE UNCL                                  20   
+636 SKILLETFISH                                 881  
+637 SKIPJACK TUNA                               128  
+638 SLENDER LIGHTFISH                           244  
+639 SLENDER SEAROBIN                            763  
+640 SLENDER SNIPE EEL                           67   
+641 SLENDER TONGUEFISH                          821  
+642 SLICKHEAD UNCL                              39   
+643 SLIPPERY DICK                               677  
+644 SMALLEYE HAMMERHEAD SHARK                   365  
+645 SMALLMOUTH FLOUNDER                         117  
+646 SMALLTAIL SHARK                             932  
+647 SMOOTH ASTARTE                              420  
+648 SMOOTH BUTTERFLY RAY                        376  
+649 SMOOTH DOGFISH                              13   
+650 SMOOTH HAMMERHEAD SHARK                     366  
+651 SMOOTH PUFFER                               195  
+652 SMOOTH SKATE                                27   
+653 SMOOTH TRUNKFISH                            841  
+654 SMOOTHHEAD SCORPIONFISH                     755  
+655 SNAKE EEL UNCL                              425  
+656 SNAKE MACKEREL                              874  
+657 SNAKE MACKEREL UNCL                         822  
+658 SNAKEBLENNY                                 182  
+659 SNAKEFISH                                   439  
+660 SNAPPER EEL                                 879  
+661 SNAPPER UNCL                                597  
+662 SNOW CRAB                                   325  
+663 SNOWY GROUPER                               537  
+664 SNUBNOSE EEL                                64   
+665 SOUTHERN EAGLE RAY                          378  
+666 SOUTHERN FLOUNDER                           789  
+667 SOUTHERN HAKE                               455  
+668 SOUTHERN KINGFISH                           652  
+669 SOUTHERN PUFFER                             844  
+670 SOUTHERN QUAHOG                             411  
+671 SOUTHERN QUAHOG BROKEN                      607  
+672 SOUTHERN QUAHOG CLAPPER                     412  
+673 SOUTHERN STARGAZER                          699  
+674 SOUTHERN STINGRAY                           29   
+675 SPANISH MACKEREL                            745  
+676 SPANISH SARDINE                             429  
+677 SPANISH SLIPPER LOBSTER                     303  
+678 SPEARFISH REMORA                            565  
+679 SPECKLED HIND                               532  
+680 SPECKLED SWIMMING CRAB                      518  
+681 SPECKLED WORM EEL                           393  
+682 SPIDER CRAB UNCL                            317  
+683 SPINNER SHARK                               931  
+684 SPINY BUTTERFLY RAY                         375  
+685 SPINY DOGFISH                               15   
+686 SPINY FLOUNDER                              784  
+687 SPINY LEBBEID                               293  
+688 SPINY SEAROBIN                              764  
+689 SPINYCHEEK SCORPIONFISH                     751  
+690 SPINYCHEEK SOLDIERFISH                      477  
+691 SPINYTAIL SKATE                             371  
+692 SPOON-NOSE EEL UNCL                         399  
+693 SPOONARM OCTOPUS                            512  
+694 SPOT                                        149  
+695 SPOTFIN BUTTERFLYFISH                       662  
+696 SPOTFIN DRAGONET                            735  
+697 SPOTFIN FLOUNDER                            783  
+698 SPOTFIN FLYINGFISH                          464  
+699 SPOTFIN HOGFISH                             673  
+700 SPOTFIN MOJARRA                             872  
+701 SPOTTAIL PINFISH                            639  
+702 SPOTTAIL TONGUEFISH                         827  
+703 SPOTTED BURRFISH                            848  
+704 SPOTTED DRIFTFISH                           748  
+705 SPOTTED DRUM                                649  
+706 SPOTTED EAGLE RAY                           271  
+707 SPOTTED GOATFISH                            656  
+708 SPOTTED HAKE                                78   
+709 SPOTTED LANTERNFISH                         55   
+710 SPOTTED MORAY                               386  
+711 SPOTTED SCORPIONFISH                        758  
+712 SPOTTED SEATROUT                            645  
+713 SPOTTED SOAPFISH                            895  
+714 SPOTTED SPOON-NOSE EEL                      394  
+715 SPOTTED TINSELFISH                          617  
+716 SPOTTED TRUNKFISH                           837  
+717 SPOTTED WHIFF                               781  
+718 SPOTTEDFIN TONGUEFISH                       798  
+719 SPREADFIN SKATE                             370  
+720 SQUID, CUTTLEFISH, AND OCTOPOD UNCL         501  
+721 SQUIRRELFISH                                478  
+722 SQUIRRELFISH UNCL                           485  
+723 STAR DRUM                                   655  
+724 STARGAZER UNCL                              857  
+725 STIMPSON'S WHELK                            346  
+726 STOUT BEARDFISH                             264  
+727 STREAMER BASS                               546  
+728 STREAMER SEAROBIN                           761  
+729 STRIATED ARGENTINE                          856  
+730 STRIATED FROGFISH                           447  
+731 STRIPED ANCHOVY                             44   
+732 STRIPED BASS                                139  
+733 STRIPED BLENNY                              729  
+734 STRIPED BONITO                              938  
+735 STRIPED BURRFISH                            198  
+736 STRIPED CUSK-EEL                            188  
+737 STRIPED GRUNT                               878  
+738 STRIPED KILLIFISH                           474  
+739 STRIPED MARLIN                              942  
+740 STRIPED MULLET                              689  
+741 STRIPED SEAROBIN                            172  
+742 SUMMER FLOUNDER                             103  
+743 SUNSHINEFISH                                671  
+744 SWIMMING CRAB UNCL                          320  
+745 SWORDFISH                                   700  
+746 TARPON                                      382  
+747 TATTLER                                     552  
+748 TAUTOG                                      177  
+749 TEN-RIDGED WHELK                            345  
+750 THORNY SKATE                                28   
+751 THREE-EYE FLOUNDER                          774  
+752 THREEBEARD ROCKLING                         85   
+753 THREESPINE STICKLEBACK                      115  
+754 THRESHER SHARK                              925  
+755 TIDEWATER SILVERSIDE                        476  
+756 TIGER SHARK                                 358  
+757 TILEFISH                                    151  
+758 TOMTATE                                     627  
+759 TONGUEFISH UNCL                             221  
+760 TRASH                                       998  
+761 TRIGGERFISH FILEFISH UNCL                   820  
+762 TRIPLETAIL                                  598  
+763 TRUMPETFISH                                 119  
+764 TRUNKFISH                                   840  
+765 TWOSPOT CARDINALFISH                        559  
+766 TWOSPOT FLOUNDER                            873  
+767 UNICORN FILEFISH                            831  
+768 UNICORN OCTOPUS                             513  
+769 UNICORNFISH                                 487  
+770 UNKNOWN 01                                  978  
+771 UNKNOWN 02                                  979  
+772 UNKNOWN 03                                  980  
+773 UNKNOWN 04                                  981  
+774 UNKNOWN 05                                  982  
+775 UNKNOWN 06                                  983  
+776 UNKNOWN 07                                  984  
+777 UNKNOWN 08                                  985  
+778 UNKNOWN 09                                  986  
+779 UNKNOWN 10                                  987  
+780 UNKNOWN 11                                  988  
+781 UNKNOWN 12                                  989  
+782 UNKNOWN 13                                  990  
+783 UNKNOWN 14                                  991  
+784 UNKNOWN 15                                  992  
+785 UNKNOWN 16                                  993  
+786 UNKNOWN 17                                  994  
+787 UNKNOWN 18                                  995  
+788 UNKNOWN 19                                  996  
+789 UNKNOWN 20                                  997  
+790 VERMILION SNAPPER                           596  
+791 VERRILL'S BOBTAIL                           514  
+792 VIPERFISH                                   240  
+793 WAHOO                                       125  
+794 WARSAW GROUPER                              536  
+795 WATER HAUL                                  300  
+796 WAVED WHELK                                 344  
+797 WEAKFISH                                    145  
+798 WEB BURRFISH                                847  
+799 WEITZMANS PEARLSIDES                        229  
+800 WENCHMAN                                    595  
+801 WESTERN SOFTHEAD GRENADIER                  280  
+802 WHIFF UNCL                                  866  
+803 WHITE BARRACUDINA                           246  
+804 WHITE CRAB                                  309  
+805 WHITE GRUNT                                 629  
+806 WHITE HAKE                                  76   
+807 WHITE MARLIN                                708  
+808 WHITE MULLET                                690  
+809 WHITE PERCH                                 140  
+810 WHITE SHARK                                 351  
+811 WHITE SHRIMP                                915  
+812 WHITEBONE PORGY                             634  
+813 WHITENOSE PIPEFISH                          491  
+814 WHITING UNCL                                86   
+815 WINDOWPANE                                  108  
+816 WINTER FLOUNDER                             106  
+817 WINTER SKATE                                23   
+818 WITCH FLOUNDER                              107  
+819 WOLF EELPOUT                                190  
+820 WRASSE UNCL                                 683  
+821 WRYMOUTH                                    191  
+822 YELLOW BOX CRAB                             329  
+823 YELLOW JACK                                 569  
+824 YELLOW STINGRAY                             377  
+825 YELLOWEDGE GROUPER                          533  
+826 YELLOWFIN BASS                              500  
+827 YELLOWFIN GROUPER                           543  
+828 YELLOWFIN TUNA                              704  
+829 YELLOWMOUTH GROUPER                         524  
+830 YELLOWTAIL FLOUNDER                         105  
+831 YELLOWTAIL REEFFISH                         670  
+832 YELLOWTAIL SNAPPER                          594  

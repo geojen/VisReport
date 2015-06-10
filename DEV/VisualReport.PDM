@@ -1,0 +1,174 @@
+[Root]
+Most Recent Package=Visual Report Designer Script 1
+
+
+[Package|Visual Report Designer Script 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Develop\NFT\VisualReport\MDIVBDEV\Package
+
+[Package|Visual Report Designer Script 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Visual Report Designer Script 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Visual Report Designer Script 1|Files Found]
+
+[Package|Visual Report Designer Script 1|Files Released]
+VRHELP.CHI=
+oc25.dll=
+USER.DLL=
+GDI.DLL=
+
+[Package|Visual Report Designer Script 1|Missing Dependency Information]
+C:\WINNT\SYSTEM32\ChartFX.ClientServer.Core.dll=
+
+[Package|Visual Report Designer Script 1|Out-of-Date Dependency Information]
+C:\WINNT\SYSTEM32\MSCOMCTL.OCX=
+
+[Package|Visual Report Designer Script 1|Files Added]
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAgepro.exe=
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAIM.exe=
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAsap.exe=
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAspic.exe=
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanCSA.exe=
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanSampLenWt.exe=
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanVPA.exe=
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\black.bmp=
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\halfblack.bmp=
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\halfred.bmp=
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\minus.bmp=
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\plus.bmp=
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\reddot.bmp=
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\white.bmp=
+
+[Package|Visual Report Designer Script 1|Files Removed]
+
+[Package|Visual Report Designer Script 1|Files In Project]
+C:\Develop\NFT\VisualReport\MDIVBDEV\VisualReport.exe=Yes
+C:\WINNT\SYSTEM32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\CUTIL.dll=Yes
+C:\WINNT\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINNT\SYSTEM32\MSFLXGRD.OCX=Yes
+C:\WINNT\SYSTEM32\COMDLG32.OCX=Yes
+C:\WINNT\SYSTEM32\TABCTL32.OCX=Yes
+C:\WINNT\SYSTEM32\ChartFX.ClientServer.Core.dll=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\VRHELP.chm=Yes
+C:\WINNT\SYSTEM32\hhctrl.ocx=Yes
+C:\WINNT\SYSTEM32\itss.dll=Yes
+C:\WINNT\SYSTEM32\itircl.dll=Yes
+C:\WINNT\SYSTEM32\hh.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAgepro.exe=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAIM.exe=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAsap.exe=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAspic.exe=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanCSA.exe=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanSampLenWt.exe=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanVPA.exe=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\black.bmp=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\halfblack.bmp=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\halfred.bmp=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\minus.bmp=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\plus.bmp=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\reddot.bmp=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\white.bmp=Yes
+
+[Package|Visual Report Designer Script 1|Configure Registry Files]
+Applicable=No
+
+[Package|Visual Report Designer Script 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Visual Report Designer Script 1|Install Locations]
+C:\Develop\NFT\VisualReport\MDIVBDEV\VisualReport.exe=$(AppPath)
+C:\WINNT\SYSTEM32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Develop\NFT\VisualReport\MDIVBDEV\CUTIL.dll=$(AppPath)
+C:\WINNT\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\SYSTEM32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\SYSTEM32\ChartFX.ClientServer.Core.dll=$(WinSysPath)
+C:\Develop\NFT\VisualReport\MDIVBDEV\VRHELP.chm=$(AppPath)
+C:\WINNT\SYSTEM32\hhctrl.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\itss.dll=$(WinSysPath)
+C:\WINNT\SYSTEM32\itircl.dll=$(WinSysPath)
+C:\WINNT\SYSTEM32\hh.exe=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAgepro.exe=$(AppPath)
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAIM.exe=$(AppPath)
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAsap.exe=$(AppPath)
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAspic.exe=$(AppPath)
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanCSA.exe=$(AppPath)
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanSampLenWt.exe=$(AppPath)
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanVPA.exe=$(AppPath)
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\black.bmp=$(AppPath)
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\halfblack.bmp=$(AppPath)
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\halfred.bmp=$(AppPath)
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\minus.bmp=$(AppPath)
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\plus.bmp=$(AppPath)
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\reddot.bmp=$(AppPath)
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\white.bmp=$(AppPath)
+
+[Package|Visual Report Designer Script 1|Configure Shared Files]
+Applicable=Yes
+C:\Develop\NFT\VisualReport\MDIVBDEV\VisualReport.exe=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\CUTIL.dll=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\VRHELP.chm=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAgepro.exe=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAIM.exe=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAsap.exe=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanAspic.exe=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanCSA.exe=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanSampLenWt.exe=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\ScanVPA.exe=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\black.bmp=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\halfblack.bmp=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\halfred.bmp=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\minus.bmp=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\plus.bmp=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\reddot.bmp=No
+C:\Develop\NFT\VisualReport\MDIVBDEV\symbols\white.bmp=No
+
+[Package|Visual Report Designer Script 1|Distribution]
+Type=single
+Size=
+Title=Visual Report Designer 1.5
+
+[Package|Visual Report Designer Script 1|IconGroups]
+Group0=Visual Report Designer 1.5
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Visual Report Designer Script 1|Visual Report Designer 1.5]
+Icon1=VisualReport.exe
+Title1=Visual Report Designer 1.5
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Visual Report Designer Script 1|Package]
+PackageFolder=C:\Develop\NFT\VisualReport\MDIVBDEV\Package
+ProjectFolder=C:\Develop\NFT\VisualReport\MDIVBDEV
+ServerSideCab=
+File1=C:\Develop\NFT\VisualReport\MDIVBDEV\Package\setup.exe
+File2=C:\Develop\NFT\VisualReport\MDIVBDEV\Package\Setup.Lst
+File3=C:\Develop\NFT\VisualReport\MDIVBDEV\Package\VisualReport.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

@@ -1,0 +1,53 @@
+ Volume in drive C is Local Disk
+ Volume Serial Number is 3CCE-0116
+
+ Directory of C:\Develop\NFT\VisualReport_1.6\MDIVBDEV\VRsymbols
+
+02/15/2008  12:14 PM    <DIR>          .
+02/15/2008  12:14 PM    <DIR>          ..
+02/15/2008  12:14 PM                 0 files.txt
+10/17/2006  03:19 PM               776 green.bmp
+10/05/2006  10:15 AM               776 greenminus.bmp
+10/05/2006  10:16 AM               776 greenplus.bmp
+10/17/2006  04:04 PM             4,204 greenplusredminus.bmp
+10/17/2006  04:05 PM             4,204 greenplustoredminus.bmp
+10/17/2006  04:05 PM             4,204 greenred.bmp
+10/17/2006  04:06 PM             4,204 greentored.bmp
+07/01/2005  12:55 PM               774 minus.bmp
+10/17/2006  04:06 PM             4,204 minusplus.bmp
+10/17/2006  04:06 PM             4,204 minustoplus.bmp
+07/01/2005  12:55 PM               774 plus.bmp
+10/17/2006  04:07 PM             4,204 plusminus.bmp
+10/17/2006  04:07 PM             4,204 plustominus.bmp
+02/12/2008  04:34 PM               776 q1a.bmp
+02/12/2008  04:35 PM               776 q1b.bmp
+02/12/2008  04:35 PM               776 q1c.bmp
+02/12/2008  04:36 PM               776 q1d.bmp
+02/12/2008  04:37 PM               776 q1e.bmp
+02/12/2008  04:29 PM             4,204 q1_full1.bmp
+02/12/2008  04:40 PM             4,204 q1_full2.bmp
+02/12/2008  04:34 PM               776 q2a.bmp
+02/12/2008  04:46 PM               776 q2b.bmp
+02/12/2008  04:46 PM               776 q2c.bmp
+02/12/2008  04:47 PM               776 q2d.bmp
+02/12/2008  04:47 PM               776 q2e.bmp
+02/12/2008  04:30 PM             4,204 q2_full1.bmp
+02/12/2008  04:48 PM             4,204 q2_full2.bmp
+02/12/2008  04:36 PM               776 q3a.bmp
+02/12/2008  04:41 PM               776 q3b.bmp
+02/12/2008  04:42 PM               776 q3c.bmp
+02/12/2008  04:42 PM               776 q3d.bmp
+02/12/2008  04:37 PM               776 q3e.bmp
+02/12/2008  04:32 PM             4,204 q3_full1.bmp
+02/12/2008  04:43 PM             4,204 q3_full2.bmp
+10/05/2006  10:32 AM               776 red.bmp
+10/17/2006  04:08 PM             4,204 redgreen.bmp
+10/05/2006  10:14 AM               776 redminus.bmp
+10/05/2006  10:13 AM               776 redplus.bmp
+10/17/2006  04:08 PM             4,204 redplusgreenminus.bmp
+10/17/2006  04:08 PM             4,204 redplustogreenminus.bmp
+10/17/2006  04:09 PM             4,204 redtogreen.bmp
+07/01/2005  12:54 PM               774 white.bmp
+10/05/2006  10:18 AM               776 yellow.bmp
+              44 File(s)         95,066 bytes
+               2 Dir(s)  43,468,898,304 bytes free

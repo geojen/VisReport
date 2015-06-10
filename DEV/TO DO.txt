@@ -1,0 +1,135 @@
+Visual Report Designer
+
+Current version = 1.6.1 (4/2/08)
+Last version = 1.6 (2/26/08)
+
+===========================================
+TO DO
+===========================================
+
+HIGH PRIORITY
+
+-For SAGA: Remind Al about the need to export a species list ("species.txt") when the user exports length-weight data. (2/26/08)
+-Ability to delete data collection data. (2/13/08)
+
+
+MEDIUM PRIORITY
+
+-Drag-with-the-mouse to select an area in the report to copy.
+
+-less confusing file management system. Go to a single-document interface with 3 tabs instead of MDI with 3 forms? 
+("Maybe make a "close project" button.  You know how in Excel, if you open another worksheet, the other one stays in the background (unless you 'x' it out), I'm always afraid to open another project (or start another one) without closing the original one.  I'm sure it's fine, however, it's the fear of changing things without meaning to or closing without saving... something to that effect.  Basically a way to close the project entirely before starting another one." (michelle wish list, 2/5/08))
+
+-In log file, write out which positions in data grid were replaced when doing a global replace of NA values. (2/26/08)
+
+-Follow up on ways to implement Paul Rago's suggestion for sparknotes. (2/21/08)
+ Could implement the whisker style (aka baseball scores) fairly easily.
+
+-In Page Preferences view, don't show cut point notes location unless there are cut point notes to display.
+
+-Clarify what cut points/notes are; add definitions.
+
+-re-do red-yellow-green symbols so that there is no black border.
+
+
+LOW PRIORITY
+
+-Finesse the auto-backup feature. Have a user-selected number of backups. Checkbox for which actions should cause an auto-backup. (1/24/08)
+
+-Don't have Import data button on Data collection grid; or put elsewhere.
+
+-Make the Report Viewer a fixed window (or an additional tab). Would need to implement the mouse-select to copy function. (michelle wish list, 2/5/08)
+
+-Speed up the time it takes users to enter the report title in the text box. Network slowness. (michelle wish list, 2/5/08)
+
+-unable to import AIM 1.5.2 files; files not current. Can't reproduce error. (wigley, 2/8/08)
+
+-bad file name or number when editing report title. possibly because writing to a file on the network which caused the write procedure to slow down, and when user clicked view report or page preferences, it couldn't write. (Michelle, 2/5/08)
+
+
+===========================================
+DONE
+===========================================
+
+=== Changes from version 1.5.1 to 1.6 ===
+
+-Added a user option to select a missing data or no-data value. Any datum that EXACTLY matches this value will be excluded from the binning calculations. (1/25/08)
+
+-Added ability to replace all values in the data collection grid equal to X with the no-data specifier (e.g., replace all instances of -999 with N/A). (2/4/08)
+
+-Disallowed commas in the Case Description for data imported from a NFT model or anywhere in user-supplied data. (2/4/08)
+
+-Updated the Copy/Paste/Fill Right/Fill Down commands. (1/25/08) (Note that it could handle blanks OK, but made sure that everything worked according to the NFT standard. Also found a bug that used a MsgBox to trap some paste instances that might have crashed the GUI.)
+
+-Added Dispersion statistic to the report view: [(max - min)/median]. In cases where the median is zero, to avoid divide-by-zero errors it will print out the value for the range with " / 0" appended. A divide-by-zero error can happen, for example, in cases where the data are symetric about zero (or the median lies between two equal but opposite values). The user is able to choose how many significant digits to report. (1/24/08)
+
+-made the dispersion the default. (michelle wish list) (2/11/08)
+
+-Added a backup and restore feature. Right now, it is hardwired to do up to 20 backups before recycling the old backups. Visual Report Designer will automatically create a backup when you open an existing project and before you close the program. You can also do on-demand backups. (1/24/08)
+
+-Added ability to clear all backups. (2/4/08)
+
+-Fixed a bug that didn't save changes to the report's Page Preferences in some cases. [The WriteLayoutFile subroutine was not connected to the OK button on the Page Preferences form.] 
+
+-Fixed a minor stylistic issue that printed lines between blank rows if there was more than one blank row grouped together.
+
+- changed "Scan" to Import in gui
+
+- fixed the report 1 show report button size
+
+-fixed odd spacing on buttons in Win XP (1/31/08)
+
+-added better highlighting for grids (2/4/08)
+
+-when user creates a new project or opens one without data in the collection, show the data collection form so users have a better idea of what to do next (1/31/08)
+
+-Plots hide missing data; plot y-axis title moved to sub title for better legibility. (2/4/08)
+
+-Fixed a bug that incorrectly changed the project's start and end years when adding user-supplied data which falls outside the existing data's year range. (2/4/08)
+
+-Fixed a bug that did not allow import of models using the Add Data button on the Data Collection form (2/11/08)
+
+-Displays the project title in the window bar. (michelle wish list) 2/11/08)
+
+-Fixed minor issue introduced in having blank grid cells OK: when an entire row is blank GetDataMinYear, GetDataMaxYear are displayed as zero in the report grid. (2/11/08)
+
+-When doing the data display options, the report number list box trigger the first available line number pertaining to the selected report and not the previous report (2/11/08)
+
+-added help topic about dispersion statistic:[(max - min)/median]. Reference in help manual:
+
+"The Measurement of the Volatility of Common Stock Prices"
+George E. Pinches; William R. Kinney, Jr.
+The Journal of Finance, Vol 26, No. 1. (Mar., 1971), pp. 119-125
+It tests various measures of price volatility, including range divided by mid-range (Max - Min)/((Max + Min)/2)
+
+Some Methods for the Statistical Analysis of Samples of Benthic Invertebrates
+By J.M. Elliott. Freshwater Biological Association, Scientific Publication No. 25, 1971.
+Section 5.6, pp. 73-78. 
+In Table 11, various indices of dispersion are given, including variance/mean.
+
+-new quintile symbols; conforms to consumer reports, better contrast in other two. Requested by rago, 2/8/08. (2/12/08)
+
+-The data values are now printed out tab-delimited instead of space-delimited so the user can distinguish blank cells easier. The actual data values in the report layout file (*.txt) are not read in; only the report's properties are read. The data is copied from the data collection grid when it gets written. (2/13/08)
+
+-Added a help form to guide users in what to put in user added data start year, end year and number of rows. (2/13/08)
+
+-Fixed a bug in scanaspic.exe that forgot to import the Starting Biomass. (2/14/08)
+
+-Added option when importing aspic data to replace missing values with a user-supplied missing value. (2/14/08)
+
+-Better tags for imported aspic data. (2/14/08)
+
+-Recent versions of SAGA don't need a species list text file. So, "species.txt" is included in the deployment of VRD until Al can reprogram SAGA to export the species list when users export lenght-weight data. For now, if the GUI doesn't find "species.txt" in the same directory as the length-weight file, it will copy the version in the application directory to that folder. (2/26/08)
+
+-made sure import routines can handle latest publicly available models. (2/26/08)
+
+=== end of changes from version 1.5.1 to 1.6 ===
+
+=== changes from version 1.6 to 1.6.1 ======
+
+-New version of SCAN AIM (4/2/08) - moderate change from previous version. It IS backward compatible (tested with AIM version 1.4). This version of SCAN AIM also fixes a bug that didn't print out the model description when it was blank in the input file. (4/2/08)
+
+-New version of Scan ASAP (4/2/08) - completely re-designed IO. Note that Scan ASAP is NOT backward compatible with older versions of ASAP. However, the ASAP gui can covert version 1.x files to version 2.x files.
+
+=== end of changes from version 1.6 to 1.6.1 ======
+

@@ -1,0 +1,549 @@
+<html>
+<head>
+<meta name="author" content="NFT Visual Report Designer version 1.6">
+<meta name="date" content="02-15-2008  14:30">
+<!-- *** BEGIN DATA SECTION ***
+$Report1
+A Sample Report
+1975  2002
+Legend_1: Red_to_Black Label_1: Highest Label_2: 2nd Highest Label_3: Middle Label_4: 2nd Lowest Label_5: Lowest
+Print_Dispersion: True  3
+CutPoint_Location: below
+Stock Weight Age 1
+ 1975          2002          1             4            Red_to_Black   0             0             1            True
+0.488229229	0.331931145	0.380181371	0.381121528	0.375394462	0.398715951	0.244768957	0.094048939	0.187788025	0.180003503	0.194052568	0.313206148	0.283160144	0.267266664	0.372394169	0.460578839	0.408731477	0.336095218	0.492520757	0.297619045	0.256927794	0.284828474	0.256273572	0.33570901	0.52075467	0.458740296	0.160198636	0.330215603	
+Stock Weight Age 2
+ 1975          2002          2             4            Red_to_Black   0             0             2            True
+0.78215923	0.777493737	0.699164107	0.672042768	0.659896147	0.642426953	0.628107897	0.581096887	0.452500897	0.541880752	0.542297473	0.509175548	0.556824409	0.595758715	0.579590786	0.675060501	0.846549083	0.802099001	0.729611001	0.823699411	0.634371123	0.657297372	0.654918952	0.642775722	0.714167895	0.865776288	0.895296132	0.858907607	
+Stock Weight Age 3
+ 1975          2002          3             4            Red_to_Black   0             0             3            True
+1.249349648	1.1004506	1.192268542	1.224995335	1.063726993	1.052187899	0.979742792	1.120350152	1.09375897	1.142290066	1.01851943	1.085356257	1.113793324	1.042102391	1.131593824	1.129775075	1.101241585	1.337485305	1.351770089	1.371199928	1.201089148	1.091213926	1.266077588	1.172221015	1.16193	1.19647952	1.183972195	1.515814379	
+Total Stock Numbers
+ 1975          2002          5             3            Green_to_Red   20000         30000         4            True
+25412.42346	114494.8888	109414.8091	73705.98773	128502.8871	109218.1117	57669.47542	36120.70755	23164.72345	30953.16762	22167.06046	27716.84345	20609.27649	30282.25609	23013.3891	17527.91708	15392.9112	18659.49257	26429.55934	31958.7296	35873.55488	37783.98113	49385.86656	49755.10066	77657.64875	74485.16524	126117.4068	99534.92248	
+*** END DATA SECTION *** -->
+
+<title>
+A Sample Report
+</title>
+
+<style type="text/css">
+<!--
+
+body {
+   font-family: "Helvetica", "Arial", sans-serif;
+   font-size: 9pt
+}
+
+table { border-collapse: collapse }
+
+td.corner {
+   border-top: 1pt solid white;
+   border-bottom: 1pt solid black;
+   border-left: 1pt solid white;
+   border-right: 1pt solid black
+}
+td.title {
+   white-space: nowrap;
+   border-top: 1pt solid black;
+   border-bottom: 1pt solid black;
+   border-left: 1pt solid black;
+   border-right: 1pt solid black;
+   padding: 0pt 2pt 0pt 2pt
+}
+td.icon {
+   white-space: nowrap;
+   border-top: 1pt solid black;
+   border-bottom: 1pt solid black;
+   border-left: 1pt solid black;
+   border-right: 1pt solid black
+}
+td.noLR {
+   border-left: 1pt solid white;
+   border-right: 1pt solid white
+}
+td.threshold {
+   white-space: nowrap;
+   border-top: 1pt solid white;
+   border-bottom: 1pt solid white;
+   border-left: 1pt solid black;
+   border-right: 1pt solid white;
+   padding: 0pt 1pt 0pt 2pt
+}
+
+p.head1 {
+   font-family: "Times New Roman", "Garamond", serif;
+   font-size: 12pt;
+   font-weight: bold;
+   text-align: center
+}
+
+p.intable {
+   font-family: "Helvetica", "Arial", sans-serif;
+   font-size: 9pt
+}
+
+p.tablecenter {
+   font-family: "Helvetica", "Arial", sans-serif;
+   font-size: 9pt;
+   text-align: center
+}
+
+p.smbreak {
+   font-family: "Helvetica", "Arial", sans-serif;
+   font-size: 9pt;
+   margin-top: 0pt;
+   padding-top: 3pt
+}
+
+-->
+</style>
+
+</head>
+<body>
+<! -- title -->
+<p class=head1>
+A Sample Report
+</p>
+
+
+<!-- begin Table -->
+<table cellspacing=0 cellpadding=0>
+
+<!-- begin table header, years row -->
+<tr>
+<td class=corner>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=icon>
+<p class=intable>
+75</p>
+</td>
+<td class=icon>
+<p class=intable>
+76</p>
+</td>
+<td class=icon>
+<p class=intable>
+77</p>
+</td>
+<td class=icon>
+<p class=intable>
+78</p>
+</td>
+<td class=icon>
+<p class=intable>
+79</p>
+</td>
+<td class=icon>
+<p class=intable>
+80</p>
+</td>
+<td class=icon>
+<p class=intable>
+81</p>
+</td>
+<td class=icon>
+<p class=intable>
+82</p>
+</td>
+<td class=icon>
+<p class=intable>
+83</p>
+</td>
+<td class=icon>
+<p class=intable>
+84</p>
+</td>
+<td class=icon>
+<p class=intable>
+85</p>
+</td>
+<td class=icon>
+<p class=intable>
+86</p>
+</td>
+<td class=icon>
+<p class=intable>
+87</p>
+</td>
+<td class=icon>
+<p class=intable>
+88</p>
+</td>
+<td class=icon>
+<p class=intable>
+89</p>
+</td>
+<td class=icon>
+<p class=intable>
+90</p>
+</td>
+<td class=icon>
+<p class=intable>
+91</p>
+</td>
+<td class=icon>
+<p class=intable>
+92</p>
+</td>
+<td class=icon>
+<p class=intable>
+93</p>
+</td>
+<td class=icon>
+<p class=intable>
+94</p>
+</td>
+<td class=icon>
+<p class=intable>
+95</p>
+</td>
+<td class=icon>
+<p class=intable>
+96</p>
+</td>
+<td class=icon>
+<p class=intable>
+97</p>
+</td>
+<td class=icon>
+<p class=intable>
+98</p>
+</td>
+<td class=icon>
+<p class=intable>
+99</p>
+</td>
+<td class=icon>
+<p class=intable>
+00</p>
+</td>
+<td class=icon>
+<p class=intable>
+01</p>
+</td>
+<td class=icon>
+<p class=intable>
+02</p>
+</td>
+<td class=icon>
+<p class=tablecenter>
+D</p>
+</td>
+</tr>
+<!-- end table header, years row -->
+
+<!-- begin data -->
+<!-- row1 -->
+<tr>
+<td class=title>
+<p class=intable>
+Stock Weight Age 1</p>
+</td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1b.bmp" alt="q1b.bmp"></td>
+<td class=icon><img src="VRsymbols\q1b.bmp" alt="q1b.bmp"></td>
+<td class=icon><img src="VRsymbols\q1b.bmp" alt="q1b.bmp"></td>
+<td class=icon><img src="VRsymbols\q1b.bmp" alt="q1b.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1d.bmp" alt="q1d.bmp"></td>
+<td class=icon><img src="VRsymbols\q1d.bmp" alt="q1d.bmp"></td>
+<td class=icon><img src="VRsymbols\q1b.bmp" alt="q1b.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1d.bmp" alt="q1d.bmp"></td>
+<td class=icon><img src="VRsymbols\q1d.bmp" alt="q1d.bmp"></td>
+<td class=icon><img src="VRsymbols\q1d.bmp" alt="q1d.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=title><p class=intable>1.289</p></td>
+</tr>
+
+<!-- row2 -->
+<tr>
+<td class=title>
+<p class=intable>
+Stock Weight Age 2</p>
+</td>
+<td class=icon><img src="VRsymbols\q1b.bmp" alt="q1b.bmp"></td>
+<td class=icon><img src="VRsymbols\q1b.bmp" alt="q1b.bmp"></td>
+<td class=icon><img src="VRsymbols\q1b.bmp" alt="q1b.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1d.bmp" alt="q1d.bmp"></td>
+<td class=icon><img src="VRsymbols\q1d.bmp" alt="q1d.bmp"></td>
+<td class=icon><img src="VRsymbols\q1d.bmp" alt="q1d.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1d.bmp" alt="q1d.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1b.bmp" alt="q1b.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1d.bmp" alt="q1d.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1b.bmp" alt="q1b.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=title><p class=intable>0.672</p></td>
+</tr>
+
+<!-- row3 -->
+<tr>
+<td class=title>
+<p class=intable>
+Stock Weight Age 3</p>
+</td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1d.bmp" alt="q1d.bmp"></td>
+<td class=icon><img src="VRsymbols\q1b.bmp" alt="q1b.bmp"></td>
+<td class=icon><img src="VRsymbols\q1b.bmp" alt="q1b.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1d.bmp" alt="q1d.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1d.bmp" alt="q1d.bmp"></td>
+<td class=icon><img src="VRsymbols\q1e.bmp" alt="q1e.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1d.bmp" alt="q1d.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1b.bmp" alt="q1b.bmp"></td>
+<td class=icon><img src="VRsymbols\q1d.bmp" alt="q1d.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1c.bmp" alt="q1c.bmp"></td>
+<td class=icon><img src="VRsymbols\q1b.bmp" alt="q1b.bmp"></td>
+<td class=icon><img src="VRsymbols\q1b.bmp" alt="q1b.bmp"></td>
+<td class=icon><img src="VRsymbols\q1a.bmp" alt="q1a.bmp"></td>
+<td class=title><p class=intable>0.472</p></td>
+</tr>
+
+<!-- row4 -->
+<tr>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+<td class=noLR>
+<p class=intable>&nbsp;</p>
+</td>
+</tr>
+
+<!-- row5 -->
+<tr>
+<td class=title>
+<p class=intable>
+Total Stock Numbers</p>
+</td>
+<td class=icon><img src="VRsymbols\yellow.bmp" alt="yellow.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\yellow.bmp" alt="yellow.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\yellow.bmp" alt="yellow.bmp"></td>
+<td class=icon><img src="VRsymbols\yellow.bmp" alt="yellow.bmp"></td>
+<td class=icon><img src="VRsymbols\yellow.bmp" alt="yellow.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\yellow.bmp" alt="yellow.bmp"></td>
+<td class=icon><img src="VRsymbols\red.bmp" alt="red.bmp"></td>
+<td class=icon><img src="VRsymbols\red.bmp" alt="red.bmp"></td>
+<td class=icon><img src="VRsymbols\red.bmp" alt="red.bmp"></td>
+<td class=icon><img src="VRsymbols\yellow.bmp" alt="yellow.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=icon><img src="VRsymbols\green.bmp" alt="green.bmp"></td>
+<td class=title><p class=intable>3.142</p></td>
+</tr>
+
+<!-- end data -->
+
+</table>
+<br>
+<!-- end Table -->
+
+
+<!-- begin Legend -->
+Legend<br>
+<table cellspacing=0 cellpadding=0>
+<tr>
+<td class=title>
+<p class=intable>
+
+<img src="VRsymbols\q1a.bmp" alt="q1a.bmp">
+Highest
+&nbsp; &nbsp;
+
+<img src="VRsymbols\q1b.bmp" alt="q1b.bmp">
+2nd Highest
+&nbsp; &nbsp;
+
+<img src="VRsymbols\q1c.bmp" alt="q1c.bmp">
+Middle
+&nbsp; &nbsp;
+
+<img src="VRsymbols\q1d.bmp" alt="q1d.bmp">
+2nd Lowest
+&nbsp; &nbsp;
+
+<img src="VRsymbols\q1e.bmp" alt="q1e.bmp">
+Lowest
+
+</p>
+</td></tr>
+<tr>
+<td class=title>
+<p class=intable>
+
+<img src="VRsymbols\green.bmp" alt="green.bmp">
+Above Cut Point
+&nbsp; &nbsp;
+
+<img src="VRsymbols\yellow.bmp" alt="yellow.bmp">
+Between Cut Points
+&nbsp; &nbsp;
+
+<img src="VRsymbols\red.bmp" alt="red.bmp">
+Below Cut Point
+
+</p>
+</td></tr>
+</table>
+<!-- end Legend -->
+<p class=smbreak>
+<!-- begin Cut Point Notes -->
+
+
+
+
+Total Stock Numbers: Lower Threshold Value = 20000, Upper Threshold Value = 30000<br>
+
+<!-- end Cut Point Notes -->
+
+
+D = Measure of Dispersion: Range/Median
+</p>
+
+</body>
+</html>
